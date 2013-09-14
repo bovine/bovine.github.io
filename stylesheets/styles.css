@@ -747,7 +747,6 @@ header p {
   background-color: #ffeca0;
 }
 #banner .fork {
-  display:none;
   position: fixed;
   left: 50%;
   margin-left: -325px;
@@ -859,7 +858,6 @@ footer {
   bottom: 20px;
   text-align: right;
   line-height: 16px;
-  display:none;
 }
 
 @media print, screen and (max-width: 1060px) {
@@ -936,7 +934,7 @@ footer {
   }
   #banner .fork {
     float: left;
-    display: none;
+    display: inline-block;
     margin-left: 0px;
     position: fixed;
     left: 20px;
